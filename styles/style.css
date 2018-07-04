@@ -12,10 +12,11 @@ main.hero {
 h1 {
   font-family: 'Shrikhand', cursive;
   font-size: 4em;
-  text-shadow: 4px 4px 6px #f68c9f;
+  text-shadow: 4px 4px 4px #e98f47;
 }
 
 .btn-primary {
+  font-family: 'Shrikhand', cursive;
   margin-top: 20px;
   padding: 20px 40px;
   background-color: #e98f47;
@@ -30,4 +31,14 @@ h1 {
 
 
 /*media queries*/
-@media and screen
+@media only screen and (max-width: 600px) {
+    main.hero {
+        background-image: url("../img/bgsml.jpg");
+    }
+
+    h1 {
+      font-family: 'Shrikhand', cursive;
+      font-size: 3em;
+      text-shadow: 4px 4px 4px #e98f47;
+    }
+}
