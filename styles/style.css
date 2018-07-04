@@ -1,3 +1,31 @@
 body, html {
     height: 100%;
 }
+
+main.hero {
+  background-position: center;
+  background-image: url("../img/bgmd.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+h1 {
+  font-family: 'Shrikhand', cursive;
+  font-size: 4em;
+}
+
+.btn-primary {
+  margin-top: 20px;
+  padding: 20px 40px;
+  background-color: rgb(111, 89, 181);
+  border-color: rgb(148, 129, 208)
+}
+
+.btn-primary:hover {
+  background-color: rgb(148, 129, 208);
+  border-color: rgb(148, 129, 208)
+}
+
+
+/*media queries*/
+@media and screen
